@@ -1,0 +1,9 @@
+git init:初始化一个git仓库
+
+
+git add <file>:添加一个文件
+git commit -m "说明"：对添加的内容进行说明
+两步需要一起才能添加一个文件
+
+git status：查看当前仓库情况，告诉修改的文件
+git diff：告诉修改的内容
