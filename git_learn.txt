@@ -14,3 +14,19 @@ git log：显示历史记录
 git reset --hard HEAD^：回退上一个版本，^^表示回退两个，HEAD~100回退100个
 git reset --hard 版本号：指定回退的版本
 git relog:记录了每个修改的命令
+
+git checkout -- file：可以丢弃工作区的修改
+git reset HEAD file:可以把暂存区的修改撤销掉，回到工作区
+
+rm file:删除文件
+git checkout -- file:也可以撤销删除
+
+git push origin master:把分支的最新修改推送至git
+
+git clone git@github.com:用户名/文件夹.git：克隆一个库至本地
+
+git checkout -b dev:切换到dev分支，-b表示创建并切换
+
+git rm file
+git commit:确认删除
+
