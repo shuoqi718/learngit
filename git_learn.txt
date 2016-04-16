@@ -30,3 +30,6 @@ git checkout -b dev:切换到dev分支，-b表示创建并切换
 git rm file
 git commit:确认删除
 
+git merge:合并指定分支到当前分支
+git branch -d dev:删除指定分支
+
