@@ -7,3 +7,8 @@ git commit -m "说明"：对添加的内容进行说明
 
 git status：查看当前仓库情况，告诉修改的文件
 git diff：告诉修改的内容
+
+git log：显示历史记录
+--pretty=oneline:加在git log之后，可以简洁显示
+
+git reset --hard HEAD^：回退上一个版本，^^表示回退两个，HEAD~100回退100个
