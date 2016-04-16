@@ -12,3 +12,5 @@ git log：显示历史记录
 --pretty=oneline:加在git log之后，可以简洁显示
 
 git reset --hard HEAD^：回退上一个版本，^^表示回退两个，HEAD~100回退100个
+git reset --hard 版本号：指定回退的版本
+git relog:记录了每个修改的命令
